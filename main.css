@@ -40,6 +40,11 @@ nav li a {
     color: black;
 }
 
+nav li a:hover {
+    border-bottom: 2px solid aqua;
+    padding-bottom: 5px;
+}
+
 .button {
     background-color: hotpink;
     text-decoration: none;
