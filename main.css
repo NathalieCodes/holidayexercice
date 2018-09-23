@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline-block;
+}
+
+.title {
+    letter-spacing: 1px;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+section {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
