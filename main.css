@@ -1,29 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    padding: 0 40px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
-}
-
-ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-li {
-    display: inline-block;
 }
 
 .title {
-    letter-spacing: 1px;
+    letter-spacing: -2px;
     color: aqua;
     font-weight: bolder;
     font-size: 2rem;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: hotpink;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 2px;
+    display: inline-block;
 }
 
 section {
-    border: 1px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.introduction, .illustration {
+    flex-basis: 50%;
+}
+
+.introduction {
+    padding: 0 20px;
+}
+
+.introduction h1 {
+    font-size: 2.5rem;
+}
+
+.introduction p {
+    font-size: 1.2rem;
+}
+
+.introduction h1, .introduction p, .introduction a {
+    margin-bottom: 20px;
+}
+
+.illustration {
+    text-align: center;
 }
