@@ -5,10 +5,11 @@
 
 body {
     font-family: sans-serif;
+    color: #333333;
 }
 
 .wrapper {
-    padding: 0 40px;
+    padding: 0 40px 40px 40px;
 }
 
 nav {
@@ -17,12 +18,14 @@ nav {
     align-items: center;
 }
 
-.title {
+.title a {
+    display: inline-block;
     letter-spacing: -2px;
     color: aqua;
     font-weight: bolder;
     font-size: 2rem;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 nav ul {
@@ -37,10 +40,10 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: black;
+    color: #333333;
 }
 
-nav li a:hover {
+nav li a:hover,nav li a.active  {
     border-bottom: 2px solid aqua;
     padding-bottom: 5px;
 }
@@ -52,9 +55,11 @@ nav li a:hover {
     padding: 10px 15px;
     border-radius: 2px;
     display: inline-block;
+    min-width: 150px;
+    text-align: center;
 }
 
-section {
+.content-intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,4 +87,19 @@ section {
 
 .illustration {
     text-align: center;
+}
+
+/* page html */
+
+.bottom-page {
+    text-align: center;
+}
+
+.page-content {
+    padding: 0 20px;
+}
+
+.page-content h2, .page-content h3, .page-content p,
+.page-content pre {
+    padding-bottom: 20px;
 }
