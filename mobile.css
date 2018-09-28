@@ -6,6 +6,7 @@
 body {
     font-family: sans-serif;
     color: #333333;
+    text-align: center;
 }
 
 .wrapper {
@@ -15,6 +16,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -35,7 +37,11 @@ nav ul {
 }
 
 nav li {
-    padding-right: 20px;
+    padding: 10px;
+}
+
+.mobile-hidden {
+    display: none;
 }
 
 nav li a {
@@ -44,8 +50,7 @@ nav li a {
 }
 
 nav li a:hover,nav li a.active  {
-    border-bottom: 2px solid aqua;
-    padding-bottom: 5px;
+    font-weight: bold;
 }
 
 .button {
@@ -62,7 +67,9 @@ nav li a:hover,nav li a.active  {
 .content-intro {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    padding-top: 10px;
 }
 
 .introduction, .illustration {
@@ -87,6 +94,10 @@ nav li a:hover,nav li a.active  {
 
 .illustration {
     text-align: center;
+}
+
+.illustration img {
+    max-width: 100%;
 }
 
 /* page html */
