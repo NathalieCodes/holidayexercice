@@ -29,25 +29,99 @@
                 Intro
             </h3>
             <p>
-                contenu a venir.
+                CSS stands for Cascading Style Sheets. It's a language that describes the style of an HTML page.
+                It describes how the different elements should be displayed in the page (size, color,
+                location in the page...).
+                It uses Selectors and Classes to specify which HTML element is targeted.
             </p>
+            <h3>
+                Example
+            </h3>
+            <pre>
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title a {
+    display: inline-block;
+    letter-spacing: -2px;
+    color: aqua;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 10px 20px;
+    text-decoration: none;
+}</pre>
             <h3>
                 Cascading
             </h3>
             <p>
-                contenu a venir.
+                The term cascading means that when you have several displaying information for the same element,
+                the last CSS information will be applied. Now, this is not always true! There is also a point system.
+                The more Selectors and Classes you have for one element, the more points you will have,
+                and this is how the information will be displayed.
             </p>
             <h3>
                 Flexbox
             </h3>
             <p>
-                contenu a venir.
+                Flexbox property aims at organizing the elements within your page. It provides an efficient way
+                to lay out, align and distribute space among items in one container. So in order to use this function,
+                you need to organize your HTML code with parent and children elements - because you can apply flex
+                properties to the parents (flex container, how you want the elements in your container to be displayed)
+                and to the children (flex item, how you want the elements to perform).
             </p>
             <p>
-                contenu a venir
+                <strong>Properties to the parent:</strong><br>
+                <ul>
+                    <li class="list-content">Display:<br>
+                        You will specify that the display of the elements in your parent container
+                        will be flex</li>
+            <pre>
+.container {
+    display: flex
+}</pre>
+                    <li class="list-content">Flex-direction:<br>
+                        This establishes the main-axis, thus defining the direction flex items are
+                        placed in the flex container. Think of flex items as primarily laying out either in horizontal
+                        rows or vertical columns.</li>
+                    <li class="list-content">Flex-wrap:<br>
+                        By default, flex items will all try to fit onto one line. You can change that and
+                        allow the items to wrap as needed.</li>
+                    <li class="list-content">Flex-flow:<br>
+                        Flex-direction + flex-wrap</li>
+                    <li class="list-content">Justify-content:<br>
+                        This defines the alignment of the elements (aligns elements to the left or
+                        right, center, or distribute space between the elements).</li>
+                    <li class="list-content">Align-items:<br>
+                        This defines the vertical alignment of the elements.</li>
+                    <li class="list-content">Align-content:<br>
+                        This defines the alignment of container's lines (it only works when you have
+                        several lines).</li>
+                </ul>
             </p>
             <p>
-                contenu a venir
+                <strong>Properties to the children:</strong><br>
+                <ul>
+                    <li class="list-content">Order:<br>
+                        By default, flex items are laid out in the source order. This allows to define
+                        the order of the elements.</li>
+                    <li class="list-content">Flex-grow:<br>
+                        This defines the ability for a flex item to grow if necessary. It dictates what amount
+                        of the available space inside the flex container the item should take up.</li>
+                    <li class="list-content">Flex-shrink:<br>
+                        This defines the ability for a flex item to shrink if necessary.</li>
+                    <li class="list-content">Flex-basis:<br>
+                        This defines the default size of an element before the remaining
+                        space is distributed.</li>
+                    <li class="list-content">Flex:<br>
+                        Flex-grow + flex-shrink + flex-basis</li>
+                    <li class="list-content">Align-self:<br>
+                        This allows the default alignment (or the one specified by align-items)
+                        to be overridden for individual flex items.</li>
+                </ul>
             </p>
         </section>
 

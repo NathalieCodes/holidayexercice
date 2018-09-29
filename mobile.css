@@ -6,7 +6,6 @@
 body {
     font-family: sans-serif;
     color: #333333;
-    text-align: center;
 }
 
 .wrapper {
@@ -78,6 +77,7 @@ nav li a:hover,nav li a.active  {
 
 .introduction {
     padding: 0 20px;
+    text-align: center;
 }
 
 .introduction h1 {
@@ -107,10 +107,16 @@ nav li a:hover,nav li a.active  {
 }
 
 .page-content {
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 .page-content h2, .page-content h3, .page-content p,
 .page-content pre {
     padding-bottom: 20px;
 }
+
+/* page css */
+ .list-content {
+     padding-bottom: 10px;
+     list-style: none;
+ }
