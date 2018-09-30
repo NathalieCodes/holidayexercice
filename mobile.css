@@ -123,5 +123,5 @@ nav li a:hover,nav li a.active  {
 
 pre {
     max-width: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
