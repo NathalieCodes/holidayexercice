@@ -19,6 +19,7 @@ nav li {
 nav li a:hover,nav li a.active  {
     border-bottom: 2px solid aqua;
     padding-bottom: 5px;
+    font-weight: normal;
 }
 
 .mobile-hidden {
