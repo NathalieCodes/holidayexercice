@@ -22,7 +22,7 @@ nav {
 .title a {
     display: inline-block;
     letter-spacing: -2px;
-    color: aqua;
+    color: #8DE6F7;
     font-weight: bolder;
     font-size: 2rem;
     padding: 10px 20px;
@@ -53,7 +53,7 @@ nav li a:hover,nav li a.active  {
 }
 
 .button {
-    background-color: hotpink;
+    background-color: #E0426D;
     text-decoration: none;
     color: white;
     padding: 10px 15px;
