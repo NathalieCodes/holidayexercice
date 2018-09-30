@@ -116,7 +116,12 @@ nav li a:hover,nav li a.active  {
 }
 
 /* page css */
- .list-content {
-     padding-bottom: 10px;
-     list-style: none;
- }
+.list-content {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+pre {
+    max-width: 100%;
+    overflow: scroll;
+}
