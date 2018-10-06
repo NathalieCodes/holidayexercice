@@ -108,6 +108,7 @@ nav li a:hover,nav li a.active  {
 
 .page-content {
     padding: 10px 20px;
+    position: relative;
 }
 
 .page-content h2, .page-content h3, .page-content p,
@@ -124,4 +125,22 @@ nav li a:hover,nav li a.active  {
 pre {
     max-width: 100%;
     overflow: auto;
+}
+
+/*table of content*/
+.table-content {
+    list-style: none;
+    border-radius: 5px;
+    background-color: #fafafa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.table-content li {
+    padding-bottom: 5px;
+}
+
+.table-content li a {
+    text-decoration: none;
+    color: #333333;
 }

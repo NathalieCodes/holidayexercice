@@ -33,3 +33,15 @@ nav li a:hover,nav li a.active  {
     align-items: center;
     padding-top: 0;
 }
+
+.page-content {
+    padding-right: 300px;
+    text-align: justify;
+}
+
+.table-content {
+    width: 200px;
+    position: fixed;
+    right: 60px;
+}
+
